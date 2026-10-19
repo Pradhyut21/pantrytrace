@@ -12,6 +12,7 @@ Checked 19 October 2026 on Windows with Python 3.13. These are observed local re
 | Mobile web workflow | 390 x 844 passed without horizontal overflow. |
 | HTTP boundary checks | Unknown scenario, unsupported live mode, cross-origin request, unexpected Host header and non-object JSON returned their expected errors. |
 | Source syntax | Python modules compiled; browser JavaScript passed `node --check`. |
+| Clean checkout | Tested without `node_modules` or local memory. The Windows redirected-stdout check caught an encoding defect; CLI JSON output now explicitly uses UTF-8. |
 | Third-party provenance | All ten vendored H-MEM source hashes match `vendor/meterless-hmem/UPSTREAM.json`. Original license retained. |
 | Pitch | Eight landscape pages rendered and visually inspected. The deck distinguishes current proof from pending sponsor work. |
 

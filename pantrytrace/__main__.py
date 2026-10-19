@@ -2,11 +2,16 @@
 import argparse
 import json
 from pathlib import Path
+import sys
 
 from . import export_action_packet, list_scenarios, run_case, run_evaluation
 
 
 def main():
+    # Windows redirected stdout can otherwise use cp1252, while evidence and
+    # trace values contain Unicode. JSON command output is always UTF-8.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="PantryTrace internal recall reconciliation prototype")
     sub = parser.add_subparsers(dest="command", required=True)
     web = sub.add_parser("serve", help="Open the loopback-only fixture workbench")
@@ -64,6 +69,5 @@ if __name__ == "__main__":
         main()
     except SponsorError as error:
         parser_message = "Sponsor operation stopped: " + str(error)
-        import sys
         print(parser_message, file=sys.stderr)
         raise SystemExit(1)
