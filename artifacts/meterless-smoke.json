@@ -1,0 +1,16 @@
+{
+  "provider": "meterless",
+  "engine": "official H-MEM reference",
+  "commit": "a3f15cee1b108c436827cdd10740fd113016e354",
+  "verified": true,
+  "scope": "local remember, cross-process recall, provenance audit, feedback",
+  "memory_id": "mem-1",
+  "source": "fixture:FDA-DEMO-1",
+  "ledger_actions": [
+    "create",
+    "read",
+    "feedback"
+  ],
+  "remote_api_calls": 0,
+  "temporary_state": true
+}

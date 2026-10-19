@@ -1,0 +1,20 @@
+# Local secrets, runtime evidence memory and generated environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pantrytrace/
+*.db
+*.sqlite*
+dist/
+build/
+.DS_Store
+Thumbs.db
+artifacts/local-*
+*.log
+

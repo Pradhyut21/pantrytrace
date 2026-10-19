@@ -1,0 +1,43 @@
+{
+  "mode": "fixture",
+  "cases": [
+    {
+      "scenario": "exact",
+      "items": 3,
+      "baseline_correct": 3,
+      "final_correct": 3,
+      "validation_passed": true,
+      "iterations": 1
+    },
+    {
+      "scenario": "ambiguous",
+      "items": 2,
+      "baseline_correct": 1,
+      "final_correct": 2,
+      "validation_passed": true,
+      "iterations": 2
+    },
+    {
+      "scenario": "conflict",
+      "items": 2,
+      "baseline_correct": 2,
+      "final_correct": 2,
+      "validation_passed": true,
+      "iterations": 2
+    },
+    {
+      "scenario": "out_of_scope",
+      "items": 2,
+      "baseline_correct": 2,
+      "final_correct": 2,
+      "validation_passed": true,
+      "iterations": 2
+    }
+  ],
+  "total_items": 9,
+  "baseline_correct": 8,
+  "final_correct": 9,
+  "baseline_accuracy": 0.8889,
+  "final_accuracy": 1.0,
+  "limitation": "Nine authored synthetic items; a logic regression check, not a real-world performance claim."
+}

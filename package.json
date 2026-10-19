@@ -1,0 +1,12 @@
+{
+  "name": "pantrytrace-sponsor-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local TypeScript runner for the pinned official Meterless H-MEM reference",
+  "scripts": {
+    "sponsors:smoke": "python scripts/smoke_meterless.py"
+  },
+  "devDependencies": {
+    "tsx": "4.20.6"
+  }
+}

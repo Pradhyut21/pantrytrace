@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163e34">
+  <meta name="description" content="PantryTrace reconciles fragmented food-bank records into evidence-backed internal recall tasks.">
+  <title>PantryTrace — Recall workbench</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="wordmark" href="/" aria-label="PantryTrace home"><span class="mark">pt</span>PantryTrace<span class="version">/ 01</span></a>
+    <div class="workspace-label">COMMUNITY FOOD OPERATIONS</div>
+    <nav aria-label="Workspace"><a href="#workbench" class="nav-active"><span>01</span>Recall workbench</a><a href="#decisions"><span>02</span>Decision register</a><a href="#trace"><span>03</span>Evidence &amp; trace</a></nav>
+    <div class="sidebar-note"><div class="tiny-label">THE PRINCIPLE</div><p>Every decision<br>needs a receipt.</p><div class="note-rule"></div><span>Missing evidence becomes<br>a question to investigate.</span></div>
+    <div class="sidebar-footer"><span class="dot"></span> Local research prototype<br><span class="muted">Open Agent Hackathon 2026</span></div>
+  </aside>
+  <main id="workbench">
+    <header class="topbar"><span>WORKSPACE <span class="slash">/</span> RECALL TRIAGE</span><div><span class="fixture-tag">SYNTHETIC DATA</span><span class="local-status"><span class="dot"></span>Local engine</span></div></header>
+    <section class="intro">
+      <div><div class="eyebrow">THE RECALL WORKBENCH</div><h1>A notice is only<br>the <em>starting point.</em></h1><p>Connect the notice to the stock on your shelves.<br>Resolve missing records. Keep the evidence.</p></div>
+      <div class="intro-aside"><div class="track-number">01<span>/ 03</span></div><div class="tiny-label">SOLVING FRAGMENTED<br>INTELLIGENCE</div><span class="pre-event">PRE-EVENT PROTOTYPE</span></div>
+    </section>
+    <section class="input-band" aria-label="Investigation setup">
+      <div class="input-heading"><span class="section-index">01</span><div><h2>Choose the case</h2><p>One notice. Several versions of the truth.</p></div></div>
+      <div class="case-picker"><label for="scenario">TEST SCENARIO</label><select id="scenario"><option value="ambiguous">Missing lot · retrieve intake record</option><option value="exact">Exact lot · direct match</option><option value="conflict">Conflicting records · escalate</option><option value="out_of_scope">Similar product · different scope</option></select></div>
+      <button id="run" class="primary"><span>Investigate recall</span><span aria-hidden="true">↗</span></button>
+    </section>
+    <div id="error" role="alert" hidden></div>
+    <div class="source-strip"><span class="tiny-label">CONNECTED FIXTURES</span><span><span class="source-icon">N</span>Recall notice</span><i>+</i><span><span class="source-icon">S</span>Stock ledger</span><i>+</i><span><span class="source-icon">R</span>Intake receipts</span><i>+</i><span><span class="source-icon">T</span>Transfer log</span><span class="source-caption">All records are invented for testing</span></div>
+    <section id="empty" class="empty-state"><div class="empty-number">?</div><div><h2>The lot number is missing.</h2><p>The first pass cannot decide. Run the investigation to see<br>the evaluator request the record that changes the answer.</p></div><div class="empty-meta"><span class="tiny-label">THE DEMO TESTS</span><p>Retrieval · revision · abstention<br>Evidence before action</p></div></section>
+    <section id="results" hidden aria-label="Investigation results">
+      <div class="result-top"><div><span class="section-index">02</span><h2>Investigation complete</h2><span id="run-meta" class="run-meta"></span></div><button id="download" class="secondary">Export evidence packet <span aria-hidden="true">↓</span></button></div>
+      <div class="metrics"><div class="metric metric-alert"><span class="tiny-label">PROPOSE QUARANTINE</span><strong id="affected">0</strong><span>units matched to this recall</span></div><div class="metric"><span class="tiny-label">NEEDS HUMAN REVIEW</span><strong id="review">0</strong><span>units with unresolved evidence</span></div><div class="metric"><span class="tiny-label">OUTSIDE THIS RECALL</span><strong id="cleared">0</strong><span>units with a documented exclusion</span></div><div class="metric metric-loop"><span class="tiny-label">EVALUATION LOOP</span><strong id="iterations">0<span> passes</span></strong><span id="loop-note">Evidence checked before decisions</span></div></div>
+      <div class="results-grid"><div class="register" id="decisions"><div class="panel-title"><h3>Decision register</h3><span id="decision-count" class="tiny-label"></span></div><div class="table-scroll"><table><thead><tr><th>STOCK / LOCATION</th><th>LOT</th><th>UNITS</th><th>DECISION</th><th></th></tr></thead><tbody id="decision-rows"></tbody></table></div><p class="register-footnote">“Outside this recall” describes this fixture’s scope. It is not a food-safety clearance.</p><div id="evidence-panel" class="evidence-panel"><span class="tiny-label">DECISION EVIDENCE</span><h3 id="evidence-title"></h3><p id="evidence-reason"></p><div id="evidence-list"></div></div></div>
+      <aside class="trace-panel" id="trace"><div class="panel-title"><h3>The investigation</h3><span class="live-label"><span class="dot"></span> ACTUAL TRACE</span></div><ol id="trace-list"></ol><div class="trace-footer">A deterministic control loop selects tools,<br>checks evidence, and retries when needed.</div></aside></div>
+      <div class="task-band"><span class="task-symbol">↗</span><div><span class="tiny-label">THE WORK PRODUCT</span><h3>Internal tasks, ready for review.</h3><p id="task-copy">Draft actions carry the source evidence. A person approves every operational action.</p></div><span class="draft-label">DRAFT ONLY</span></div>
+    </section>
+    <footer class="page-footer"><span>PantryTrace <span class="slash">/</span> Evidence before action.</span><span>Fixture mode · sponsor connections pending verification</span></footer>
+  </main>
+</body>
+</html>

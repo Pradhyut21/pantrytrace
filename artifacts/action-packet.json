@@ -1,0 +1,33 @@
+{
+  "run_id": "fixture-ambiguous-75c24e6216",
+  "mode": "fixture",
+  "as_of": "2026-09-16T12:00:00Z",
+  "scope": "Internal historical triage exercise only. All data is synthetic. Quarantine is a proposed internal action requiring human review. Clear means no match to this fixture recall, never safe to eat. No public alert or recall lifecycle status is produced.",
+  "status": "draft_for_internal_human_review",
+  "actions": [
+    {
+      "action_id": "ACTION-INV-A01",
+      "type": "internal_quarantine_review",
+      "item_id": "INV-A01",
+      "units": 30,
+      "location": "Central pantry \u00b7 intake bay",
+      "reason": "Exact product identifier and affected lot match the supplied recall scope. Recommend internal quarantine pending human approval.",
+      "evidence_record_ids": [
+        "ALIAS-02",
+        "INV-A01",
+        "LEDGER-A01",
+        "SYNTHETIC-RECALL-2026-001",
+        "TRANSFER-A01"
+      ],
+      "downstream_transfer_receipts": [
+        "TRANSFER-RECEIPT-A01"
+      ],
+      "transfer_scope": "single_outgoing_hop_only",
+      "outbound_units": 6,
+      "approval_required": true,
+      "execution_status": "draft",
+      "external_communication_sent": false
+    }
+  ],
+  "external_actions_executed": 0
+}

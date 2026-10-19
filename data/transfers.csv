@@ -1,0 +1,4 @@
+transfer_id,item_id,destination,units,transferred_at,receipt_id
+TRANSFER-E01,INV-E01,Riverside meal program,12,2026-09-14T10:00:00Z,TRANSFER-RECEIPT-E01
+TRANSFER-A01,INV-A01,Riverside meal program,6,2026-09-14T11:00:00Z,TRANSFER-RECEIPT-A01
+TRANSFER-C01,INV-C01,North community kitchen,4,2026-09-14T12:00:00Z,TRANSFER-RECEIPT-C01

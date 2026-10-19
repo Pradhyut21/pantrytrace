@@ -1,0 +1,16 @@
+{
+  "recall_id": "SYNTHETIC-RECALL-2026-001",
+  "classification": "demonstration only",
+  "title": "Fictional Northstar Pantry chickpea recall exercise",
+  "product": "Northstar Pantry Chickpeas, 15 oz",
+  "brand": "Northstar Pantry",
+  "supplier_id": "SUP-NORTHSTAR",
+  "affected_gtins": ["DEMO-GTIN-NCP15"],
+  "affected_lots": ["NS260901", "NS260902"],
+  "reason": "Synthetic contamination exercise; no real product or recall is represented.",
+  "published_at": "2026-09-15T09:00:00Z",
+  "as_of": "2026-09-16T12:00:00Z",
+  "source_id": "fixture:recall:SYNTHETIC-RECALL-2026-001",
+  "source_url": null,
+  "scope": "Internal historical triage exercise only. Clear means no match to this fixture recall; it does not mean safe to eat."
+}
