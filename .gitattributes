@@ -12,3 +12,7 @@
 *.jpg binary
 *.pdf binary
 *.mp4 binary
+
+# Frozen media inputs must retain their SOURCE-MANIFEST.sha256 bytes.
+media-src/brag/** -text
+media-src/walkthrough/** -text

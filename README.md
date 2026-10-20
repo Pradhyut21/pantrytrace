@@ -57,6 +57,7 @@ Supplier notes are untrusted inputs. Proposed quarantine and transfer tasks requ
 ```sh
 python -m unittest discover -s tests -v
 python -m pantrytrace evaluate
+python scripts/verify_provenance.py
 python -m pantrytrace demo --scenario ambiguous --output artifacts/ambiguous.json --packet artifacts/action-packet.json
 ```
 

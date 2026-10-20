@@ -22,6 +22,8 @@ The first GitHub Actions run exposed a Windows test comparing an 8.3 temporary-f
 
 After the editable video projects and final index were added, publication checks covered 108 relative Markdown links and all 49 preserved video-source hashes, with no broken targets or hash mismatches. The bounded scan of 97 text files also found no matches for the checked credential formats or private setup context.
 
+`python scripts/verify_provenance.py` verifies the ten pinned Meterless source files and 49 frozen media files. CI runs it on both operating systems. Frozen media inputs retain their original newline bytes through Git attributes, so a checkout cannot silently invalidate their source manifest.
+
 ## Shareable deliverables
 
 | File | Bytes | SHA-256 |
