@@ -17,10 +17,10 @@ Updated 20 October 2026. The preparation package is runnable. It is **not a qual
 
 ## Publication verification
 
-- [ ] Push the prepared source and assets to the existing repository, preserving ancestry through `af58b00`.
-- [ ] Verify remote `main`, GitHub's default branch, public source visibility and all relative documentation/media links.
-- [ ] Verify setup and evaluation from a clean checkout; record actual results.
-- [ ] Confirm the 116-second preparation video and pitch are accessible in the repository.
+- [x] Push the prepared source and assets to the existing repository, preserving ancestry through `af58b00`.
+- [x] Verify remote `main`, GitHub's default branch, public source visibility and relative documentation/media links.
+- [x] Verify setup, 44 tests, evaluation and local Meterless from a fresh remote clone; see [verification](VERIFICATION.md).
+- [x] Confirm the 116-second preparation video and pitch are accessible in the repository and match their source bytes.
 - [ ] Refresh the preparation video after actual sponsor execution, upload the final version and verify signed-out playback and sharing permissions.
 
 ## Eligible-window implementation and proof

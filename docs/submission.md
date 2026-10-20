@@ -34,9 +34,9 @@ The public event rules require Zetaris, Meterless and Cursor, while the Academy 
 | Track | Solving Fragmented Intelligence, subject to the full challenge and pre-existing ruling. |
 | Description | Copy the 1332-character description above for a truthful draft. Refresh after verified build-window work. |
 | Video | [Google Drive preparation walkthrough](https://drive.google.com/file/d/1A3MebeBEs_cJHzJBYgj1wZ6Pcby7npV8/view?usp=drivesdk), with anyone-reader sharing verified through Drive metadata. The [repository copy](media/pantrytrace-walkthrough.mp4) is 116 seconds. This is prototype footage; refresh the final 1–4 minute demo with actual sponsor execution and verify playback. |
-| GitHub Solution | [https://github.com/Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace). The public repository exists; source push, default `main` and clean-checkout verification are pending at this documentation update. |
+| GitHub Solution | [https://github.com/Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace). Source and prepared deliverables are published on public default `main`; a fresh clone passed tests, fixture evaluation and the local Meterless check. See [verification](VERIFICATION.md). |
 | Pitch Deck | [Prepared PDF deck](pitch/pantrytrace-pitch.pdf). The supplied form labels it optional; official guidance includes a deck, so retain and refresh it. |
-| Pre-existing components | Use [PREEXISTING.md](../PREEXISTING.md), the preserved pre-event history through `af58b00`, and the subsequent 20 October publication-preparation commit. |
+| Pre-existing components | Use [PREEXISTING.md](../PREEXISTING.md), the preserved pre-event history through `af58b00`, and the subsequent 20 October publication-preparation commits. |
 | Save Draft / Submit | Save Draft only while required proof remains pending. Confirm the team first: rules lock composition when the first submission is created; a draft's effect on that lock is unverified. Editing after Submit is also unverified. |
 
 ## Final demo sequence

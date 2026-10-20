@@ -1,5 +1,7 @@
 # PantryTrace
 
+[![Reproduce the investigation](https://github.com/Pradhyut21/pantrytrace/actions/workflows/check.yml/badge.svg)](https://github.com/Pradhyut21/pantrytrace/actions/workflows/check.yml)
+
 **Every recall decision needs a receipt.**
 
 PantryTrace helps food-bank coordinators investigate recalled stock when donation receipts, inventory sheets and transfer records disagree. It retrieves the missing evidence, checks the proposed finding and produces an internal task draft with its sources attached.
@@ -94,6 +96,8 @@ The [smoke receipt](artifacts/meterless-smoke.json) records the tested local sco
 - [Judge demo guide](docs/DEMO.md), [submission copy](docs/submission.md) and [current readiness checklist](docs/SUBMISSION_READINESS.md).
 - [Research and competing products](docs/track-research.md), [sponsor research](docs/sponsor-integration-research.md) and [architecture](docs/architecture.md).
 - [Media credits](docs/media/MEDIA-CREDITS.md), [data provenance](data/PROVENANCE.md) and [third-party source provenance](vendor/meterless-hmem/NOTICE.md).
+
+The [deliverables index](docs/DELIVERABLES.md) collects the project materials. Editable video compositions, captures and render instructions are in [media-src](media-src/README.md).
 
 Recommended track: **Solving Fragmented Intelligence**, subject to the final challenge statement and organizers' treatment of pre-existing work. Code, data and preparation media from 19-20 October must be declared; eligible-window work and final sponsor evidence must be documented separately. The [release checklist](docs/RELEASE_CHECKLIST.md) tracks the remaining work.
 

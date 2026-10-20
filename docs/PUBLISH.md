@@ -4,7 +4,7 @@ Updated 20 October 2026. The user has authorized publishing the complete prepare
 
 **[https://github.com/Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace)**
 
-The repository has been created. At this documentation update, the source push and GitHub default-branch verification are pending. Do not create a duplicate repository, initialize a second history or describe an empty remote as published source.
+The source and prepared assets were published on 20 October 2026. The public default branch is `main`, and the original preparation commits remain ancestors of it. A fresh clone from GitHub passed all 44 tests, fixture evaluation and the real local Meterless smoke check. See [verification details](VERIFICATION.md).
 
 ## Preserve provenance
 
@@ -31,7 +31,7 @@ git ls-remote --heads origin main
 gh repo view Pradhyut21/pantrytrace --json url,visibility,defaultBranchRef
 ```
 
-The remote should be the repository above; the intended published/default branch is `main`. Verify its actual state after pushing. If `main` is not yet present locally, finish the history-preserving publication workflow before using the ancestry check. A nonzero ancestry result needs investigation, not a history rewrite.
+The remote should be the repository above, with published/default branch `main`. A nonzero ancestry result needs investigation, not a history rewrite. The `gh` command is optional; the branch can also be checked in GitHub's repository interface and with `git ls-remote --symref origin HEAD`.
 
 After publication, maintain the normal `main` history with new commits and ordinary pushes. Use feature branches and pull requests for later changes; preserve the pre-event boundary in [PREEXISTING.md](../PREEXISTING.md).
 

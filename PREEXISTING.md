@@ -4,7 +4,7 @@ Preparation began **19 October 2026**. Public-repository packaging and documenta
 
 ## Suggested submission disclosure
 
-> We prepared the PantryTrace concept, research, synthetic fixtures, deterministic investigation prototype, web workbench, tests, sponsor adapter scaffolding, local Meterless H-MEM integration and preparation-era media before the official build window. Publication preparation and documentation on 20 October are also declared pre-existing. The complete preparation history through af58b00 and the subsequent publication-preparation commit are included; no commit dates are changed. Vendored Meterless sources retain their upstream authorship and license. Preparation used Codex. Live Zetaris execution, NVIDIA Nemotron product inference and actual Cursor development have not yet been demonstrated. We claim only substantive new implementation, integrations and validation actually completed during the official window as new hackathon work. Track eligibility and treatment of these components remain subject to HackOS/organizer confirmation.
+> We prepared the PantryTrace concept, research, synthetic fixtures, deterministic investigation prototype, web workbench, tests, sponsor adapter scaffolding, local Meterless H-MEM integration and preparation-era media before the official build window. Publication preparation, a Windows test portability fix and documentation on 20 October are also declared pre-existing. The complete preparation history through af58b00 and the subsequent publication-preparation commits are included; no commit dates are changed. Vendored Meterless sources retain their upstream authorship and license. Preparation used Codex. Live Zetaris execution, NVIDIA Nemotron product inference and actual Cursor development have not yet been demonstrated. We claim only substantive new implementation, integrations and validation actually completed during the official window as new hackathon work. Track eligibility and treatment of these components remain subject to HackOS/organizer confirmation.
 
 ## Component inventory
 
@@ -19,7 +19,7 @@ Preparation began **19 October 2026**. Public-repository packaging and documenta
 | 20 October publication packaging, asset copies and documentation | Prepared before the window | Declare publication preparation, not new eligible-window features |
 | Standard library and optional third-party packages | Existing dependencies | Preserve version/license metadata and identify their use |
 
-The existing preparation commits are `c3786a5`, `5c99df5` and `af58b00`. Preserve their ancestry. Record the later publication-preparation commit and eligible-window before/after commits using their real hashes after those commits exist; do not invent dates or hashes.
+The original preparation commits are `c3786a5`, `5c99df5` and `af58b00`. Publication packaging was added in `e3e6875`; Windows test path comparison was corrected in `c596aa0`. Preserve their ancestry and all later publication-preparation commits. Record eligible-window before/after commits using their real hashes after those commits exist; do not invent dates or hashes.
 
 ## New work to document during the window
 

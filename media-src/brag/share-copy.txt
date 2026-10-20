@@ -1,0 +1,3 @@
+PantryTrace follows a recall notice through fragmented pantry records, keeps conflicting evidence visible, and drafts internal tasks for human review. A synthetic research prototype built around one principle: evidence before action.
+
+Music: “Happy Beats & Business Moves Vol. 12” by Sascha Ende, CC BY 4.0. Track: https://ende.app/en/song/12881-happy-beats-business-moves-vol-12 . License: https://creativecommons.org/licenses/by/4.0/ . Edited with trims, gain reduction and fades. Further credits: included MEDIA-CREDITS.md.
