@@ -1,51 +1,46 @@
 # Submission materials
 
-These texts describe the **current declared pre-event prototype**. Update them after the eligible-window build; do not claim pending sponsor work is complete.
+Updated 20 October 2026. These materials describe the declared pre-event prototype. **Use Save Draft; final qualification remains pending.** Do not present fixtures, prepared adapters or planned model calls as live sponsor execution.
 
-## Primary track
+## Primary track and title
 
-**Solving Fragmented Intelligence**. No existing team submission occupies a track, according to the user. The track has not been selected on HackOS by this project.
-
-## Project title
+**Solving Fragmented Intelligence** is the proposed track, subject to HackOS confirmation of the full challenge and this pre-existing project's eligibility. The user reported no earlier submission occupying a track. No track selection has been performed by this repository.
 
 **PantryTrace: Every Recall Decision Needs a Receipt**
 
-## Description (150–2000 characters)
+## Ready-to-copy description — 1332 characters
 
-PantryTrace helps food-bank coordinators answer a practical question: which stock and partner locations need investigation after a recall notice?
+Copy only the following description into the 150–2000 character field:
 
-Donation receipts, inventory sheets and transfer logs often describe the same product differently. PantryTrace links these records while checking product identity separately from lot eligibility. When a lot is missing, its evaluator rejects the unsupported conclusion, requests the intake record and revises the finding. Conflicting records stay in human review. Every decision links to its source evidence.
+PantryTrace helps food-bank teams investigate which stock and partner locations need review after a recall. It links synthetic donation receipts, inventory and transfer logs while checking product identity separately from lot eligibility.
 
-The working local prototype includes four synthetic scenarios, an inspectable planner/executor/evaluator loop, transfer context, regression evaluation and downloadable internal task drafts. It treats instruction-like supplier notes as untrusted data and performs no external operational actions.
+The current project is a deterministic fixture-based prototype with four scenarios and a planner/executor/evaluator loop. Missing lot evidence triggers receipt retrieval; conflicting records stay in human review. Findings retain source references, and exported tasks are internal drafts. It does not update inventory or send operational messages.
 
-The actual Meterless H-MEM engine persists and retrieves source-linked investigation context with an audit ledger. A documented, tested Zetaris REST adapter and connected-record runner are prepared; live instance validation remains pending. NVIDIA critique is optional and unverified. Actual Cursor development must be documented during the build.
+The real Meterless H-MEM engine has been exercised locally for persistent, source-linked investigation memory. A Zetaris REST adapter and connected runner are prepared, but live Zetaris execution, NVIDIA Nemotron inference and actual Cursor development remain pending. Local memory does not prove model inference.
 
-This snapshot was prepared before the event and must be declared as pre-existing. The eligible-window work will add verified federation, substantive agent improvements and fresh evaluation evidence. Results are internal triage support, never a declaration that food is safe.
+All code, fixtures, research and media prepared before the 22 October build window, including 20 October publication preparation, are declared pre-existing. This is a Save Draft description, not a claim of final eligibility. New sponsor execution and substantive build-window work must be documented, and HackOS must confirm the track and pre-existing treatment. PantryTrace supports internal triage and never declares food safe.
 
-## Idea proposal (200–300 words)
+## Sponsor requirements and current proof
 
-When a recall arrives, a food-bank coordinator still has to determine whether donated cartons match the affected product, which lots remain on shelves, and which partner agencies received transfers. The evidence lives in donation receipts, stock sheets and movement logs. A missing lot number can turn a simple lookup into a manual investigation.
+Local Meterless H-MEM persistence, retrieval and audit were exercised. Live Zetaris federation, NVIDIA Nemotron inference and actual Cursor development are pending. The prototype's optional NVIDIA flag is an implementation setting, not proof of final eligibility.
 
-PantryTrace turns that fragmented evidence into an internal review packet. It checks product identity separately from lot scope, follows documented transfers and attaches source references to each finding. Its planner selects the next source to inspect. An evaluator challenges unsupported conclusions and sends missing evidence back for retrieval. Conflicting receipts produce a specific question for a person instead of a confident guess.
+The public event rules require Zetaris, Meterless and Cursor, while the Academy FAQ additionally specifies Nemotron directly or through Meterless. Treat all four as the completion checklist until **How the Week Runs** confirms the final requirements. See [submission readiness](SUBMISSION_READINESS.md) and the [official event rules](https://hackathon.genai.works/event/open-agent-hackathon-2026).
 
-The current prototype demonstrates this loop on four synthetic scenarios, including an ambiguous batch that resolves after receipt retrieval and a contradictory batch that remains in review. It exports draft location tasks without sending messages or changing inventory. Tests cover unknown identifiers, incomplete recall scope and hostile instructions inside supplier notes.
+## Form field map
 
-Meterless H-MEM provides real local persistence, retrieval and provenance audit. The eligible build will connect registered sources through Zetaris, document actual Cursor development and evaluate whether NVIDIA model critique improves the investigation. A small inventory-only baseline makes the contribution of additional evidence visible.
+| Form field | Prepared value or action |
+| --- | --- |
+| Team Name | Use the real team supplied by HackOS. Confirm composition before creating the first submission. |
+| Track | Solving Fragmented Intelligence, subject to the full challenge and pre-existing ruling. |
+| Description | Copy the 1332-character description above for a truthful draft. Refresh after verified build-window work. |
+| Video | [Google Drive preparation walkthrough](https://drive.google.com/file/d/1A3MebeBEs_cJHzJBYgj1wZ6Pcby7npV8/view?usp=drivesdk), with anyone-reader sharing verified through Drive metadata. The [repository copy](media/pantrytrace-walkthrough.mp4) is 116 seconds. This is prototype footage; refresh the final 1–4 minute demo with actual sponsor execution and verify playback. |
+| GitHub Solution | [https://github.com/Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace). The public repository exists; source push, default `main` and clean-checkout verification are pending at this documentation update. |
+| Pitch Deck | [Prepared PDF deck](pitch/pantrytrace-pitch.pdf). The supplied form labels it optional; official guidance includes a deck, so retain and refresh it. |
+| Pre-existing components | Use [PREEXISTING.md](../PREEXISTING.md), the preserved pre-event history through `af58b00`, and the subsequent 20 October publication-preparation commit. |
+| Save Draft / Submit | Save Draft only while required proof remains pending. Confirm the team first: rules lock composition when the first submission is created; a draft's effect on that lock is unverified. Editing after Submit is also unverified. |
 
-The proposed value is less manual evidence assembly for pantry networks with inconsistent records. That value remains a hypothesis until operators test it. Pre-event code, data and media will be declared, and the final demo will distinguish verified sponsor execution from local fixtures. PantryTrace supports accountable decisions while preserving uncertainty wherever the evidence is incomplete.
+## Final demo sequence
 
-## Upload fields
+Show the recall trigger, missing-lot investigation, evaluator's rejected conclusion, retrieved receipt and revised evidence-backed result. Export an internal task draft, then show the contradictory case remaining in review. Add actual sponsor execution receipts and evaluation sample sizes only after those runs occur. The [short brag clip](media/pantrytrace-brag.mp4) is a separate teaser, not the required full demo.
 
-| Form field | Prepared asset / required action |
-|---|---|
-| Team name | HackOS supplies your real team name; no invented name is inserted |
-| Track | Solving Fragmented Intelligence, subject to full challenge/rules confirmation |
-| Description | Copy the description above after updating completion claims |
-| Demo video | `../../video/pantrytrace-walkthrough.mp4` is the preparation walkthrough. Refresh sponsor footage and upload the final 1–4 minute version with judge-accessible permissions |
-| GitHub solution | Local repository only. Publish under your own account and paste the real URL |
-| Pitch deck | `../../pantrytrace-pitch.pdf` is the preparation deck. Refresh its status slide, then upload if the form accepts PDF or share the deck |
-| Pre-existing components | Use `../PREEXISTING.md` and the actual pre-event snapshot commit |
-
-## Pitch and demo sequence
-
-Lead with the missing lot, run the investigation, show the critic's request, inspect the receipt that changes the decision, show a transfer task and export the packet. Then run the conflicting case and show why it remains unresolved. Finish with a real sponsor execution receipt and the benchmark's exact sample size. The 24-second `brag` clip is a separate shareable teaser, shorter than the submission's required walkthrough.
+Build opens **22 October 2026, 05:30 IST**; final submissions close **28 October 2026, 05:15 IST**. Nothing here saves or submits an entry. [Official dates](https://hackathon.genai.works/event/open-agent-hackathon-2026).

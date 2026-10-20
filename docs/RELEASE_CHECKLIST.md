@@ -1,40 +1,46 @@
-# Remaining steps before an actual hackathon submission
+# Release and submission checklist
 
-The local preparation package is runnable. It is **not yet a fully qualified final entry**.
+Updated 20 October 2026. The preparation package is runnable. It is **not a qualified final hackathon entry**. See [submission readiness](SUBMISSION_READINESS.md) for current requirements and their public-source differences.
 
-## Already prepared
+## Prepared
 
-- [x] Research and competing-project comparison with source links
-- [x] Track recommendation and a focused food-bank workflow
-- [x] Local deterministic investigation loop and four synthetic cases
-- [x] Source-linked decisions, missing-evidence retry and conflict review
-- [x] Internal task drafts and evidence export
-- [x] Regression tests and a reproducible fixture evaluation
-- [x] Real local Meterless H-MEM persistence, retrieval and audit
-- [x] Documented Zetaris REST adapter and no-fixture-fallback connected runner
-- [x] Local repository materials, license, CI configuration and publish instructions
-- [x] Pre-existing code/data/media declaration
+- [x] Cited research, track proposal and focused food-bank workflow.
+- [x] Deterministic planner/executor/evaluator prototype with four synthetic cases.
+- [x] Source-linked decisions, missing-evidence retrieval, conflict review and internal draft exports.
+- [x] Regression tests and reproducible fixture evaluation.
+- [x] Actual local Meterless H-MEM persistence, retrieval and audit.
+- [x] Zetaris REST adapter and connected runner that do not silently replace live failures with fixtures.
+- [x] Pre-event walkthrough, brag teaser and pitch materials.
+- [x] Public repository created: [Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace).
+- [x] Preparation walkthrough uploaded to [Google Drive](https://drive.google.com/file/d/1A3MebeBEs_cJHzJBYgj1wZ6Pcby7npV8/view?usp=drivesdk), with anyone-reader sharing verified through metadata.
+- [x] Pre-existing code/data/media and 20 October publication preparation declared.
 
-## Access and eligible-window implementation
+## Publication verification
 
-- [ ] Confirm the full Track 1 challenge statement, latest rules and treatment of this pre-existing prototype in HackOS
-- [ ] Obtain assigned Zetaris instance, organization ID, view permissions and private credentials
-- [ ] Register independent data sources and show actual federation, not only separate local files
-- [ ] Run `scripts/run_connected.py` against investigation-scoped registered views with no truncation
-- [ ] Demonstrate useful Meterless evidence memory in the connected workflow and record a redacted receipt
-- [ ] Implement substantive new agent behavior during the eligible window in Cursor and document actual IDE use
-- [ ] Run NVIDIA critique if it makes a measurable contribution; record the endpoint/model and result honestly
-- [ ] Add held-out examples with new product/lot patterns; validate supported transfer accounting against source records
-- [ ] Obtain target-user feedback if possible; report its absence if unavailable
+- [ ] Push the prepared source and assets to the existing repository, preserving ancestry through `af58b00`.
+- [ ] Verify remote `main`, GitHub's default branch, public source visibility and all relative documentation/media links.
+- [ ] Verify setup and evaluation from a clean checkout; record actual results.
+- [ ] Confirm the 116-second preparation video and pitch are accessible in the repository.
+- [ ] Refresh the preparation video after actual sponsor execution, upload the final version and verify signed-out playback and sharing permissions.
+
+## Eligible-window implementation and proof
+
+- [ ] Confirm the complete challenge, final **How the Week Runs** requirements and treatment of the pre-existing prototype in HackOS.
+- [ ] Obtain a running Zetaris instance and execute real source/view queries; retain redacted evidence.
+- [ ] Demonstrate registered independent sources and actual federation, not separate local fixtures.
+- [ ] Exercise connected investigations with Meterless memory and document its contribution.
+- [ ] Implement substantive new agent behavior in Cursor and retain honest development evidence.
+- [ ] Run NVIDIA Nemotron in the product, directly or through Meterless, and retain model/run evidence.
+- [ ] Resolve public-rule differences about required technologies. Until confirmed, complete Zetaris, Meterless, Cursor and Nemotron; the optional prototype flag does not waive final requirements.
+- [ ] Add held-out cases, supported transfer-accounting checks and measured comparisons with denominators.
+- [ ] Seek target-user feedback; report its absence if unavailable.
 
 ## Final submission
 
-- [ ] Refresh the description, deck and 1–4 minute demo to match actual final behavior
-- [ ] Declare this entire preparation snapshot and third-party components with real commit references
-- [ ] Publish the repository, verify a clean checkout, and give judges access
-- [ ] Upload the final video and verify permissions in a signed-out browser
-- [ ] Choose the track on HackOS; avoid creating a duplicate-track submission
-- [ ] Review team composition before creating the first submission, because the guide says it locks then
-- [ ] Save a draft with real repository/video URLs, then submit before **28 October 2026, 05:15 IST**
+- [ ] Refresh the description, deck and 1–4 minute demo to match verified behavior.
+- [ ] Declare all pre-window code, data and media; identify real pre-event and eligible-window commits without changing dates.
+- [ ] Confirm the track and team before creating the first submission.
+- [ ] Use **Save Draft** while proof is missing. Do not assume editing remains possible after Submit.
+- [ ] Final-submit only after eligibility, proof, source access and video permissions are established.
 
-The registration cutoff differs between supplied guides and the public page. Register before the earlier stated cutoff and use HackOS announcements as the final source. Nothing in this package submits, publishes, or contacts organizers automatically.
+Build opens **22 October 2026, 05:30 IST**. Submission deadline: **28 October 2026, 05:15 IST**. [Official event dates/rules](https://hackathon.genai.works/event/open-agent-hackathon-2026), [Academy FAQ](https://academy.genai.works/courses/open-agent-hackathon-2026/details). No HackOS submission has been performed.

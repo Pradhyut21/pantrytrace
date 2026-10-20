@@ -1,23 +1,48 @@
-# Publish this local repository
+# Maintain and verify the public repository
 
-No remote repository has been created. The user chose local preparation.
+Updated 20 October 2026. The user has authorized publishing the complete prepared project to the existing public repository:
 
-1. Review `PREEXISTING.md`, remove private local files, and run the checks below.
-2. Create an empty GitHub repository named `pantrytrace` under your account. Do not initialize a second README or license there.
-3. If this folder already contains the prepared local commit, add your remote and push it. Otherwise initialize it and commit with your own configured Git identity.
+**[https://github.com/Pradhyut21/pantrytrace](https://github.com/Pradhyut21/pantrytrace)**
+
+The repository has been created. At this documentation update, the source push and GitHub default-branch verification are pending. Do not create a duplicate repository, initialize a second history or describe an empty remote as published source.
+
+## Preserve provenance
+
+The prepared history contains these commits:
+
+| Commit | Existing preparation change |
+| --- | --- |
+| `c3786a5` | Declare PantryTrace pre-event prototype and research |
+| `5c99df5` | Make Windows CLI JSON output UTF-8 |
+| `af58b00` | Preserve pinned upstream source bytes on Windows |
+
+Keep all three as ancestors of the published `main` branch. Add publication documentation/assets in a new commit with its actual date. Do not rebase away this history, force-push it away, backdate commits or imply that packaging is eligible-window implementation.
+
+## Verify this owned remote
+
+Run these checks against the prepared checkout when the source push is ready:
 
 ```powershell
-python -m unittest discover -s tests -v
-python -m pantrytrace evaluate
-git status
-git remote add origin https://github.com/YOUR-ACCOUNT/pantrytrace.git
-git push -u origin codex/pre-event-prototype
+git remote get-url origin
+git status --short
+git log --oneline --decorate -5
+git merge-base --is-ancestor af58b00 main
+git ls-remote --heads origin main
+gh repo view Pradhyut21/pantrytrace --json url,visibility,defaultBranchRef
 ```
 
-`YOUR-ACCOUNT` is an explicit placeholder. Replace it; no actual repository URL is claimed. If your starting branch differs, use the branch printed by `git branch --show-current`. Set the desired GitHub default branch after the first push, or use a normal pull request to merge the preparation snapshot.
+The remote should be the repository above; the intended published/default branch is `main`. Verify its actual state after pushing. If `main` is not yet present locally, finish the history-preserving publication workflow before using the ancestry check. A nonzero ancestry result needs investigation, not a history rewrite.
 
-Suggested repository description: **Evidence-backed recall reconciliation for food banks: missing lots, conflicting intake records, transfer context, and reviewable task drafts.**
+After publication, maintain the normal `main` history with new commits and ordinary pushes. Use feature branches and pull requests for later changes; preserve the pre-event boundary in [PREEXISTING.md](../PREEXISTING.md).
+
+## Verify a clean checkout and assets
+
+Clone the real remote into a separate review folder after source publication, follow its README, and run the documented tests and fixture evaluation. Check the workbench plus links to [submission readiness](SUBMISSION_READINESS.md), [the 116-second walkthrough](media/pantrytrace-walkthrough.mp4), [the teaser](media/pantrytrace-brag.mp4) and [the pitch PDF](pitch/pantrytrace-pitch.pdf). Record the actual results in the release checklist.
+
+The [preparation walkthrough on Google Drive](https://drive.google.com/file/d/1A3MebeBEs_cJHzJBYgj1wZ6Pcby7npV8/view?usp=drivesdk) has verified anyone-reader sharing metadata. Verify signed-out playback, and refresh the footage after actual sponsor execution. No YouTube or Vimeo publication is claimed. The form also offers video upload; final footage must show the final implementation and remain 1–4 minutes.
+
+Suggested repository description: **Evidence-backed recall reconciliation for food banks: missing lots, conflicting intake records, transfer context and reviewable task drafts.**
 
 Suggested topics: `food-banks`, `traceability`, `entity-resolution`, `agents`, `meterless`, `zetaris`, `hackathon`.
 
-Keep the initial snapshot labeled as pre-event. Tag it `pre-event-2026-10-19` if desired. During the build window, use a new branch and publish a real before/after comparison. Do not change commit dates. Add the final demo URL and deck after validating their sharing permissions. For a private repository, grant judges the access required by HackOS before submission.
+Public source publication does not establish final hackathon eligibility. Live Zetaris, Nemotron and Cursor proof remain pending; see [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md). No HackOS submission is performed by these maintenance instructions.

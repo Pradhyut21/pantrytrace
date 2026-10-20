@@ -1,31 +1,34 @@
 # Pre-existing component declaration
 
-Prepared **19 October 2026**, before the event build opening of **22 October 2026, 00:00 UTC**.
+Preparation began **19 October 2026**. Public-repository packaging and documentation on **20 October 2026** are also pre-event work. Both precede the official build opening, **22 October 2026 at 00:00 UTC / 05:30 IST**.
 
 ## Suggested submission disclosure
 
-> We prepared the PantryTrace concept, research, synthetic fixtures, deterministic reconciliation prototype, web workbench, regression tests, sponsor adapter scaffolding, local Meterless H-MEM integration, documentation and preparation-era demo materials before the build window. The complete pre-event snapshot is declared as a pre-existing component. Vendored Meterless sources retain their upstream authorship and license. We claim only the new implementation, integrations and validation demonstrably completed during the official build window as eligible hackathon work. We developed the preparation snapshot using Codex; we will document actual Cursor use for the eligible build. We will identify the pre-event snapshot commit and the eligible-window comparison commits without altering their dates.
+> We prepared the PantryTrace concept, research, synthetic fixtures, deterministic investigation prototype, web workbench, tests, sponsor adapter scaffolding, local Meterless H-MEM integration and preparation-era media before the official build window. Publication preparation and documentation on 20 October are also declared pre-existing. The complete preparation history through af58b00 and the subsequent publication-preparation commit are included; no commit dates are changed. Vendored Meterless sources retain their upstream authorship and license. Preparation used Codex. Live Zetaris execution, NVIDIA Nemotron product inference and actual Cursor development have not yet been demonstrated. We claim only substantive new implementation, integrations and validation actually completed during the official window as new hackathon work. Track eligibility and treatment of these components remain subject to HackOS/organizer confirmation.
 
 ## Component inventory
 
 | Component | Origin | Treatment |
-|---|---|---|
-| Product concept and cited research | Prepared before the event | Declare preparation |
-| Original Python control loop, fixtures, tests, HTTP server and workbench | Prepared before the event with Codex | Declare pre-existing prototype |
-| Sponsor REST and local-engine adapter code | Prepared before the event using official public documentation | Declare pre-existing integration scaffolding |
-| Vendored Meterless H-MEM reference source | Official Meterless repository, pinned provenance in vendor directory | Preserve Apache-2.0 license and original attribution |
-| Synthetic data and labels | Invented before the event | Declare prepared data; no actual FDA recall record represented |
-| Preparation video, poster and pitch materials | Prepared from the pre-event prototype | Label prototype footage; refresh final demo during the event |
-| Python standard library and optional npm packages | Pre-existing third-party dependencies | Declare dependency use with versions/license metadata |
+| --- | --- | --- |
+| Product concept and cited research | Before the build window | Declare preparation |
+| Python loop, fixtures, tests, HTTP server and workbench | Before the window using Codex | Declare pre-existing deterministic prototype |
+| Sponsor REST and local-engine adapters | Prepared from public official documentation | Declare scaffolding; distinguish local H-MEM execution from pending live/model runs |
+| Vendored Meterless H-MEM source | Official Meterless source with pinned provenance | Preserve upstream bytes, attribution and Apache-2.0 license |
+| Synthetic data and labels | Prepared before the window | Declare invented fixtures, not actual recall records |
+| Walkthrough, brag clip, poster and pitch | Prepared from the prototype | Label preparation footage and refresh final evidence |
+| 20 October publication packaging, asset copies and documentation | Prepared before the window | Declare publication preparation, not new eligible-window features |
+| Standard library and optional third-party packages | Existing dependencies | Preserve version/license metadata and identify their use |
 
-## Eligible-window work to make the entry substantive
+The existing preparation commits are `c3786a5`, `5c99df5` and `af58b00`. Preserve their ancestry. Record the later publication-preparation commit and eligible-window before/after commits using their real hashes after those commits exist; do not invent dates or hashes.
 
-1. Confirm the complete primary challenge statement and the pre-existing policy in HackOS. Select Track 1 only if it remains available to the team. If organizers direct a pre-existing prototype to Wildcard, follow their ruling.
-2. Open the project in **Cursor** and implement the event's core new features there. Record files changed, dates and relevant commits. A `.cursor` file alone is not proof of Cursor development.
-3. Register independent sources on the assigned Zetaris instance. Execute and retain actual read-only query receipts and source/table mappings, with secrets removed.
-4. Use Meterless evidence memory in the connected investigation. Verify source references, persistence across runs, and conflict handling. Measure what memory contributes instead of adding a ceremonial call.
-5. Add bounded model-directed source selection or notice interpretation using the approved runtime. Preserve deterministic evidence checks and compare against the baseline. NVIDIA technology should contribute to this step if it improves the measured result.
-6. Build a separate held-out fixture set and have a food-bank coordinator review the task packet, if available. Keep this work distinct from the nine development items.
-7. Record a fresh 1–4 minute working demo showing the new implementation and actual sponsors. Update the README, deck and submission text to match what was truly executed.
+## New work to document during the window
 
-Do not describe a pre-event prototype as an eligible completed entry. Organizer approval of pre-existing components has not been obtained. The submission form's optional deck label differs from the supplied guides, so retain the prepared deck and verify the final rule.
+1. Confirm the full challenge, rules and pre-existing ruling in HackOS. Follow an organizer direction to Wildcard if required; Track 1 eligibility is not assumed.
+2. Implement substantive new features in Cursor and record actual files, dates and commits. A configuration file alone is not proof of IDE use.
+3. Execute actual Zetaris source/view queries and connected investigations, retaining redacted evidence and source mappings.
+4. Exercise useful Meterless memory in the connected workflow, measuring persistence, source references and conflict handling.
+5. Run useful NVIDIA Nemotron model behavior directly or through Meterless, preserve deterministic checks and compare the result to the baseline. Public rules/FAQ differ; complete all four sponsor technologies pending confirmation in **How the Week Runs**. The optional prototype flag is not an eligibility waiver.
+6. Add held-out evaluation and seek operator review where available. Distinguish new evaluation from the original development fixtures.
+7. Record a fresh 1–4 minute demo and update the deck, README and submission copy to reflect only verified execution.
+
+See [submission readiness](docs/SUBMISSION_READINESS.md), [official build-window/pre-existing rules](https://hackathon.genai.works/event/open-agent-hackathon-2026) and the [Academy FAQ](https://academy.genai.works/courses/open-agent-hackathon-2026/details). Organizer approval has not been obtained. Publishing the preparation repository is not a final submission or an eligibility ruling.
