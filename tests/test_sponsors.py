@@ -73,7 +73,8 @@ class MeterlessTests(unittest.TestCase):
             payload = json.loads(kwargs["input"])
             self.assertEqual(payload["operation"], "remember")
             self.assertEqual(payload["source"], "FDA:1")
-            self.assertEqual(payload["entry"], str(root / "hmem" / "src" / "index.ts"))
+            # Windows TEMP may use an 8.3 alias; the client sends a resolved path.
+            self.assertEqual(payload["entry"], str((root / "hmem" / "src" / "index.ts").resolve()))
             self.assertIn("memory.add", args[0][-1])
             self.assertIn("memory.query", args[0][-1])
             self.assertNotIn("Lot ABC recalled", args[0][-1])
